@@ -49,15 +49,15 @@ Among some other things, the `rake grade` specs will be looking for these:
 - The sign up page is located at `/users/sign_up`.
 - The "Waiting on" section should be contained within a `<div>` that has the class `"waiting_on"`.
 - The "Received" section should be contained within a `<div>` that has the class `"received"`.
-- In the target, the field to enter a date is an `<input type="date">`. (This input type may not work properly on all browsers — use Chrome when testing.
+- In the target, the field to enter a date is an `<input type="date">`. (This input type may not work properly on all browsers — use Chrome when testing.)
 
 ### Optional implementation details
 
 The following behavior in the target is optional, and `rake grade` will pass without them:
 
-- The background-color of the "Waiting on" section is `lightgoldenrodyellow`.
-- The background-color of the "Received" section should be `lightgreen`.
-- For items in the "Waiting on" section, the date that the delivery was expected on is displayed. If the date is more than 3 days ago, the color of the date is red.
+- The `background-color` of the "Waiting on" section is `lightgoldenrodyellow`.
+- The `background-color` of the "Received" section should be `lightgreen`.
+- For items in the "Waiting on" section, the date that the delivery was expected on is displayed. If the date is more than 3 days ago, the color of the date is `red`.
 
 ## Hints
 
