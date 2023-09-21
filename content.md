@@ -47,9 +47,9 @@ Among some other things, the `rake grade` specs will be looking for these:
 - As usual, pay attention to the copy in buttons, links, labels, headings, etc — spelling, capitalization, and punctuation matter.
 - The sign in page is located at `/users/sign_in`.
 - The sign up page is located at `/users/sign_up`.
-- The "Waiting on" section should be contained within a <div> that has the class `"waiting_on"`.
-- The "Received" section should be contained within a <div> that has the class `"received"`.
-- In the target, the field to enter a date is an <input type="date">. (This input type may not work properly on all browsers — use Chrome when testing.
+- The "Waiting on" section should be contained within a `<div>` that has the class `"waiting_on"`.
+- The "Received" section should be contained within a `<div>` that has the class `"received"`.
+- In the target, the field to enter a date is an `<input type="date">`. (This input type may not work properly on all browsers — use Chrome when testing.
 
 ### Optional implementation details
 
